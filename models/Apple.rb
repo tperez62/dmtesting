@@ -1,8 +1,8 @@
-class Tree
+class Apple
 	include DataMapper::Resource
 	
 	property :id	, Serial
 	property :name	, String	, required: true
 	
-	has n, :apples
+	belongs_to :tree
 end
