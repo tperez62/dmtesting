@@ -1,5 +1,4 @@
 class Tree
-	#This is a Tree model
 	include DataMapper::Resource
 	
 	property :id	, Serial
